@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+address {
+    float: right;
+    min-width: 300px;
+}
+
+img {
+    height: 100px;
+    float: left;
+}
+
+/* .contact-info {
+    clear: left;
+    padding-bottom: 10px;
+} */
+
+ul {
+    list-style-type: none;
+}
+
+.education {
+    clear: right;
+}
+
+.education li {
+    padding-bottom: 10px;
+}
+
+.emp-date {
+    font-style: italic;
+    font-size: .8em;
+}
+
+@media only screen and (min-width:600px) {
+    .container {
+        max-width: 800px;
+    }
+
+    address {
+        width: 300px;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    .education {
+        clear: none;
+
+    }
+}
